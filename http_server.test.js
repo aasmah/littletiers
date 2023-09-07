@@ -1,15 +1,10 @@
-const supertest  = require('supertest')
+const supertest  = require('supertest'),
 const app       = require('./http_server');
 const request    =supertest(app);
 
 
-    // it('responds with "Hello, World!', async () => {
-    
-    //   expect(text).toBe('Hello, World!');
-    // });
- 
 
-it('Hello World!', async done => {
+it('Hello World!', done => {
     expect(1).toBe(1);
     done()
 });
